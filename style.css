@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, a {
+    color: #161212;
+}
+
+p {
+    color: #404040;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container_nav, .container_main, .container_main_2 {
+    background-color: #F7C7B9;
+}
+
+.maxwidth {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.maxwidth_nav {
+    padding: 15px 0px;
+}
+
+.maxwidth_nav h1 {
+    float: left;
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 500;
+}
+
+.maxwidth_nav img {
+    width: 35px;
+    float: left;
+    margin-right: 12px;
+}
+
+.maxwidth_nav .area_navegacao {
+    float: right;
+    line-height: 39px;
+}
+
+.maxwidth_nav .area_navegacao a{
+    margin-left: 50px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.maxwidth_main, .maxwidth_main_2 {
+    height: 500px;    
+}
+
+.maxwidth_main .area_text{
+    float: left;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.maxwidth_main .area_text h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    margin-bottom: 24px;
+    width: 45%;
+}
+
+.maxwidth_main .area_text p {
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 52px;
+    width: 60%;
+}
+
+.maxwidth_main .container_button{
+    width: 250px;
+    height: 48px;
+    background-color: #DA2535;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #F9F9F9;
+    font-weight: 600;
+    position: relative;
+}
+
+.maxwidth_main .area_button {
+    width: 190px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.maxwidth_main .area_button img {
+    float: left;
+    margin-right: 14px;
+}
+
+.maxwidth_main .area_imagem_maopapainoel {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.maxwidth_acessorios {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.maxwidth_acessorios h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.maxwidth_acessorios > p {
+    text-align: center;
+    font-weight: 400;
+    margin: 0 auto;
+    max-width: 36%;
+}
+
+.maxwidth_acessorios .container_cards {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 35px;   
+}
+
+.maxwidth_acessorios .card_acessorios {
+    text-align: center;
+    width: 25%;
+    height: 330px;
+    float: left;
+}
+
+.maxwidth_acessorios .card_acessorios:nth-child(1){
+    margin-left: 0px;
+}
+
+.maxwidth_acessorios .card_acessorios:nth-child(4){
+    margin-right: 0px;
+}
+
+.maxwidth_main_2 .area_text_2 {
+    float: right;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    width: 48%;
+    transform: translateY(-50%);
+}
+
+.maxwidth_main_2 .area_text_2 h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    margin-bottom: 24px;
+    max-width: 65%;
+}
+
+.maxwidth_main_2 .area_text_2 p {
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 52px;
+    max-width: 75%;
+}
+
+.maxwidth_main_2 .container_button{
+    width: 250px;
+    height: 48px;
+    background-color: #DA2535;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #F9F9F9;
+    font-weight: 600;
+    position: relative;
+}
+
+.maxwidth_main_2 .area_button {
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.maxwidth_main_2 .area_button img {
+    float: left;
+    margin-right: 14px;
+}
+
+.area_imagem_maocompresente {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.container_rodape {
+    padding: 60px 0px;
+}
+
+.maxwidth_rodape h1 {
+    float: left;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.maxwidth_rodape img {
+    width: 35px;
+    float: left;
+    margin-right: 12px;
+}
+
+.area_socialmidia {
+    float: right;
+    line-height: 39px;
+    margin-left: 30px;
+    width: 40px;
+    background: #F8D6CE;
+    border-radius: 100px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    width: 40px;
+    height: 40px;
+}
+
+.area_socialmidia_twitter  {    
+    background-image: url(img/twitter.png);
+}
+    
+.area_socialmidia_youtube  {   
+    background-image: url(img/youtube.png);
+}
+
+.area_socialmidia_likedin {
+    background-image: url(img/linkedin.png);  
+}
+
+.area_socialmidia_instagram { 
+    background-image: url(img/instagram.png);
+}
+
+.area_socialmidia_facebook {
+    background-image: url(img/facebook.png); 
+}
+
+@media (max-width: 1130px) {
+    .maxwidth_main .area_imagem_maopapainoel img{
+       width: 500px;
+    }
+
+    .maxwidth_main .area_text p {
+        width: 40%;
+    }
+
+    .maxwidth_main_2 .area_text_2 h2 {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 875px) {
+    .maxwidth_main .area_imagem_maopapainoel img{
+       width: 400px;
+    }
+
+    .area_imagem_maocompresente img{
+        width: 300px;
+    }
+
+    .maxwidth_acessorios .card_acessorios {
+        width: 100%;       
+        float: none;
+    }
+
+    .maxwidth_acessorios > p {
+        max-width: 80%;
+    }
+
+    .maxwidth_main_2 .area_text_2 h2 {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 715px) {
+    .maxwidth_main .area_imagem_maopapainoel img{
+       width: 400px;
+       display: none;
+    }
+
+    .maxwidth_main .area_text h2 {
+        width: 100%;    
+    }
+    
+    .maxwidth_main .area_text p {
+        width: 100%;    
+    }
+
+    .maxwidth_acessorios .card_acessorios {
+        width: 100%;       
+        float: none;
+    }
+
+    .maxwidth_main_2 .area_text_2 {
+        width: 100%;
+    }
+
+    .maxwidth_main_2 .area_text_2 h2 {
+        width: 100%;
+    }
+    
+    .maxwidth_main_2 .area_text_2 p {
+        width: 100%;
+    }
+
+    .area_imagem_maocompresente img{
+        display: none;
+    }
+
+    .maxwidth_nav .area_navegacao {
+        float: none;
+    }
+
+    .maxwidth_nav h1 {
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .maxwidth_nav .area_navegacao a:nth-child(1){
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 580px) {
+    .maxwidth_nav .area_navegacao a:nth-child(1){
+        margin-left: 10px;
+    }
+    
+    .maxwidth_nav .area_navegacao a {
+        margin-left: 10px;
+        display: block; 
+    }
+
+   .maxwidth_rodape h1 {
+       float: none;
+       margin-bottom: 20px;
+   }
+
+   .area_socialmidia {
+       float: left;
+   }
+
+   .area_socialmidia_facebook {
+       margin-left: 5px;
+   }
+
+   .maxwidth_main_2 .area_text_2 p {
+    max-width: 100%;
+}
+
+}
